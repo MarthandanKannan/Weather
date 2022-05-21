@@ -1,0 +1,61 @@
+body{
+    color: rgba(29, 78, 124, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+    
+}
+
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color:  rgba(8, 53, 95, 0.877);
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    /* margin-bottom: 48px; */
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header td {
+    padding-bottom: 16px;
+}
+header a {
+    color: rgba(29, 78, 124, 0.877);
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+.potrait{
+    width: 350px;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: rgba(29, 78, 124, 0.877);
+    color: black;
+    padding: 8px;
+
+}
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
